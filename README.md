@@ -46,7 +46,7 @@ To reproduce the results discussed in the pre-print, please follow the steps bel
    ```
 3. Run the command below with the sample arguments
    ```
-   python predict.py --layer 3 --dev gpu
+   python predict.py --layer 4 --dev gpu
    ```
 4. See the output of the script printed on the terminal. The values correspond to the risk scores of the samples.
 <img width="432" alt="Screenshot 2023-08-01 at 00 29 17" src="https://github.com/ciceklab/PiDeeL/assets/45332095/2578085e-b33e-4c38-a543-80669fdce0a6">
