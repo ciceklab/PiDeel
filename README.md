@@ -58,7 +58,9 @@ To reproduce the results discussed in the pre-print, please follow the steps bel
     ```
    https://zenodo.org/record/7228791
    
-   Extract the zip into /reproduce/data/ folder
+   Extract the zip into /reproduce/data/ folder and arrange the folders as follows:
+   /reproduce/data/Dataset_Labels.xlsx
+   /reproduce/data/FID-samples/
    ```
 3. Set the path
    ```
