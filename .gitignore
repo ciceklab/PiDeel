@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 /reproduce/data/FID-samples/
 /reproduce/data/Dataset_Labels.xlsx
+*.DS_Store
