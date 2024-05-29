@@ -1,8 +1,8 @@
-from hyper_config import *
+from hyper_config import ultimate_path
 
 import os
 print("Dataset Loading...")
-os.chdir('reproduction_scripts/scripts')
+os.chdir(f'{ultimate_path}/reproduce/reproduction_scripts/scripts')
 os.system('python load_targeted_data.py')
 print("Dataset Loaded")
 
@@ -114,8 +114,8 @@ print("Figure 2 saved")
 os.system('python boxplot3.py')
 print("Figure 3 saved")
 
-print("Shape analysis:")
-os.system("../shap_analysis")
+print("SHAP analysis:")
+os.chdir("../shap_analysis")
 os.system("python shap_metabolites.py")
 os.system("python shap_pathways.py")
 print("Shap analysis finished")

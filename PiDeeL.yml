@@ -8,7 +8,7 @@ dependencies:
   - bottleneck=1.3.5=py311hbed6279_0
   - brotli-bin=1.0.9=h5eee18b_7
   - bzip2=1.0.8=h7b6447c_0
-  - ca-certificates=2023.08.22=h06a4308_0
+  - ca-certificates=2024.3.11=h06a4308_0
   - cycler=0.11.0=pyhd3eb1b0_0
   - cyrus-sasl=2.1.28=h52b45da_1
   - dbus=1.13.18=hb2f20db_0
@@ -63,9 +63,9 @@ dependencies:
   - nspr=4.35=h6a678d5_0
   - nss=3.89.1=h6a678d5_0
   - numexpr=2.8.4=py311h65dcdc2_1
-  - openssl=3.0.10=h7f8727e_2
+  - openssl=3.0.13=h7f8727e_2
   - packaging=23.1=py311h06a4308_0
-  - pandas=2.0.3=py311ha02d727_0
+  - pandas=1.5.3=py311hba01205_0
   - pcre=8.45=h295c915_0
   - pip=23.2.1=py311h06a4308_0
   - ply=3.11=py311h06a4308_0
@@ -171,4 +171,4 @@ dependencies:
       - triton==2.0.0
       - typing-extensions==4.7.1
       - urllib3==2.0.4
-prefix: /home/gunkaynar/anaconda3/envs/PiDeeL
+prefix: /home/gunkaynar/envs/PiDeeL

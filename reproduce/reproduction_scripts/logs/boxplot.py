@@ -70,7 +70,7 @@ ax3.set_xticks([1,2,3,4,5,6,7,8])
 ax3.set_ylim(0.5, 0.8)
 
 tasks = ["Cox-PH","RSF", "2-layer","3-layer","4-layer","2-layer","3-layer","4-layer"]
-ax3.set_yticks([0.5, 0.6,0.7,0.8],fontsize=12)
+ax3.set_yticks(ticks = [0.5, 0.6,0.7,0.8],labels = [0.5, 0.6,0.7,0.8],fontsize=12)
 
 ax3.set_xticklabels(tasks,fontsize=12,rotation=45)
 
@@ -93,7 +93,7 @@ ax1.set_xticklabels(tasks,fontsize=12,rotation=45)
 
 
 
-ax1.set_yticks([0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6,0.7,0.8,0.9,1],fontsize=12)
+ax1.set_yticks([0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6,0.7,0.8,0.9,1],labels =[0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6,0.7,0.8,0.9,1],fontsize=12)
 ax1.set_ylim(0.75, 1.0)
 tasks = ["2layer/no_pathway", "3layer/no_pathway", "4layer/no_pathway", "2layer/pathway","3layer/pathway","4layer/pathway"]
 
@@ -115,7 +115,7 @@ tasks = ["2-layer", "3-layer","4-layer","2-layer","3-layer","4-layer"]
 
 ax2.set_xticklabels(tasks,fontsize=12,rotation=45)
 
-ax2.set_yticks([0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6,0.7,0.8,0.9,1],fontsize=12)
+ax2.set_yticks([0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6,0.7,0.8,0.9,1],labels= [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6,0.7,0.8,0.9,1],fontsize=12)
 ax2.set_ylim(0.75, 1.0)
 tasks = ["2layer/no_pathway", "3layer/no_pathway", "4layer/no_pathway", "2layer/pathway","3layer/pathway","4layer/pathway"]
 

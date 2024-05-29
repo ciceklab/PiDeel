@@ -51,7 +51,7 @@ tasks = ["2layer/pathway", "3layer/pathway", "4layer/pathway"]
 concordence_multitask = {}
 for task in tasks:
     concordence_multitask[task] = []
-    with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test7/{task}/c_indices.txt", "r") as f:
+    with open(ultimate_path + f"/reproduce/reproduction_scripts/tests/logs/test7/{task}/c_index.txt", "r") as f:
         for lines in f:
             concordence_multitask[task].append(float(lines.strip()))
 
@@ -101,7 +101,7 @@ for task in tasks:
 concordance_ablation2 = {}
 for task in tasks:
     concordance_ablation2[task] = []
-    with open(f"/reproduce/reproduction_scripts/tests/logs/test2/{task}/c_indices.txt", "r") as f:
+    with open(ultimate_path+ f"/reproduce/reproduction_scripts/tests/logs/test2/{task}/c_indices.txt", "r") as f:
         for lines in f:
             concordance_ablation2[task].append(float(lines.strip()))
 
